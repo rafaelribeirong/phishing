@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conta Microsoft</title>
+	<style type="text/css">body {
+			font-family: Arial, sans-serif;
+			color: #333333;
+		}
+
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f5f5f5;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+		}
+
+		h1 {
+			color: #4472c4;
+		}
+
+		p {
+			margin-bottom: 15px;
+		}
+
+		a {
+			color: #007bff;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<h1>Conta Microsoft</h1>
+
+<p>Prezado(a), {{.FirstName}} {{.LastName}}</p>
+
+<p>Algu&eacute;m em Bogot&aacute;, Col&ocirc;mbia, tentou fazer login na sua conta v&aacute;rias vezes. Se voc&ecirc; acredita que isso foi uma atividade fraudulenta, por favor, redefina sua senha clicando <a href="{{.URL}}">aqui</a>.</p>
+
+<p>Se voc&ecirc; efetuou o login e acredita que isso n&atilde;o seja uma atividade fraudulenta, voc&ecirc; pode ignorar esta mensagem.</p>
+
+<p>Atenciosamente,</p>
+
+<p>Microsoft@company.com</p>
+
+<p>{{.Tracker}}</p>
+</div>
+</body>
+</html>

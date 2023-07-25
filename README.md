@@ -1,26 +1,17 @@
-# GoPhish
+# GoPhish 🎣
 
-<!DOCTYPE html>
-<html lang="en">
+👋 Bem-vindo(a) à minha página do GitHub!
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+Nesta página, você encontrará uma variedade de projetos e recursos relacionados ao **GoPhish**.
 
-<body>
-  <h1>Bem-vindo(a) à minha página do GitHub!</h1>
+## 📄 Templates de Página
 
-  <p>Nesta página, você encontrará uma variedade de projetos e recursos relacionados à GoPhish.</p>
+Encontre aqui alguns templates prontos para uso para **GoPhish**. Eles podem ajudar em seus projetos de phishing simulado e testes de segurança.
 
-  <h2>Templates de Página</h2>
-  <p>Templates de página para GoPhish. Aqui, você encontrará alguns templates prontos para uso, que podem ajudar em seus projetos.</p>
+## 📧 Templates de E-mail
 
-  <h2>Email</h2>
-  <p>Templates de e-mail para GoPhish. Aqui, você encontrará alguns templates prontos para uso, que podem ajudar em seus projetos.</p>
+Descubra templates prontos para uso para **GoPhish**. Utilize-os para criar e-mails realistas em seus testes de phishing e conscientização de segurança.
 
-  <p>Sinta-se à vontade para explorar, usar os templates de página e e-mail e entrar em contato comigo.</p>
-</body>
+Sinta-se à vontade para explorar, usar os templates de página e e-mail e entrar em contato comigo. Se tiver alguma sugestão ou contribuição, ficarei feliz em colaborar! 😄
 
-</html>
-
+Keep Phishing Ethically . . . Keep Learning! 🚀🔒
